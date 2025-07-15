@@ -10,8 +10,8 @@ export interface Todo {
 interface TodoStore {
   todos: Todo[];
   addTodo: (title: string) => void;
-  deleteTodo: (id: string) => void;
-  toggleTodo: (id: string) => void;
+  deleteTodo: (id: number | string) => void;
+  toggleTodo: (id: number | string) => void;
 }
 
 const useTodoStore = create<TodoStore>()(
