@@ -1,4 +1,3 @@
-import React from "react";
 import TodoForm from "./components/TodoForm";
 import TodoItem from "./components/TodoItem";
 import useTodoStore from "./store/todoStore";

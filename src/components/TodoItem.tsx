@@ -1,4 +1,3 @@
-import React from "react";
 import type { Todo } from "../store/todoStore";
 import useTodoStore from "../store/todoStore";
 
